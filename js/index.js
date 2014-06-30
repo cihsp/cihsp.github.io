@@ -1,4 +1,4 @@
-var base_url = "http://wwwx.cs.unc.edu/Courses/comp426-f13/jamesml/site";
+var base_url = "http://cihsp.github.io";
 
 var bathrooms = new Array();
 var selectedBID = -1;

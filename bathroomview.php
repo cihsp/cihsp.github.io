@@ -1,7 +1,7 @@
 <?php
 
 if (!isset($_GET['bid'])) {
-    header("Location: http://wwwx.cs.unc.edu/Courses/comp426-f13/jamesml/site/index.html");
+    header("Location: http://cihsp.github.io");
     exit;
 }
 
@@ -20,8 +20,7 @@ if (!isset($_GET['bid'])) {
     <meta name="author" content="">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/index.css" rel="stylesheet">
-    <!-- <script src="js/jquery-1.10.2.min.js"></script> -->
-    <script src="/Courses/comp426-f13/jquery-1.10.2.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bathroomview.js"></script>
     <script src="js/Review.js"></script>
     <script src="js/Bathroom.js"></script>

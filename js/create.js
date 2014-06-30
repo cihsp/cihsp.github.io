@@ -1,4 +1,4 @@
-var url_base = "http://wwwp.cs.unc.edu/Courses/comp426-f13/jamesml/site/php";
+var url_base = "http://cihsp.github.io/php";
 var reviewCount = 0;
 $(document).ready(function () {
 	bid = $('#bid').val();
@@ -15,7 +15,7 @@ $(document).ready(function () {
 			}
 		},
 		error: function(jqXHR, status, error) {
-			window.location.href = "http://wwwp.cs.unc.edu/Courses/comp426-f13/jamesml/site/index";
+			window.location.href = "http://cihsp.github.io";
 		}});
 
 	$.ajax(url_base + "/bathrooms.php/"+bid,
@@ -27,7 +27,7 @@ $(document).ready(function () {
 			$('#bathroomHeader').html(br.makeHeader());
 		},
 		error: function(jqXHR, status, error) {
-			window.location.href = "http://wwwx.cs.unc.edu/Courses/comp426-f13/jamesml/site/index";
+			window.location.href = "http://cihsp.github.iox";
 		}});
 
 	// Add new review 
@@ -39,7 +39,7 @@ $(document).ready(function () {
 				dataType: "json",
 				data: $(this).serialize(),
 				success: function(review_json, status, jqXHR) {
-					window.location.href = "http://wwwx.cs.unc.edu/Courses/comp426-f13/jamesml/site/bathroomview.php?bid="+bid;
+					window.location.href = "http://cihsp.github.io/bathroomview.php?bid="+bid;
 				},
 				error: function(jqXHR, status, error) {
 					// alert("faliure:"+jqXHR.responseText);
