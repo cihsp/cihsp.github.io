@@ -17,7 +17,7 @@ if (!isset($_GET['bid'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="bootstrap/css/index.css" rel="stylesheet">  
-        <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
         <script src="js/create.js" type="text/javascript"></script>
         <script src="js/Bathroom.js" type="text/javascript"></script>
     </head>
