@@ -4,9 +4,9 @@ Also known as *CIHSP*.
 
 ## What is CIHSP?
 
-CIHSP was a humorous final project, written by me and my good friend [James Allen](http://github.com/jjalle37) for our final project in Advanced Web Development. We had to write a web application using HTML5, JavaScript, PHP, and a MySQL database. It is a good demonstration of our knowledge of how to write such applications, so I want to keep the code hosted for demonstration.
+CIHSP was a humorous final project, written by me and my good friend [James Allen](http://github.com/jjallen37) for our final project in Advanced Web Development. We had to write a web application using HTML5, JavaScript, PHP, and a MySQL database. It is a good demonstration of our knowledge of how to write such applications, so I want to keep the code hosted for demonstration.
 
-We also made use of JQuery and Twitter Bootstrap for layout purposes.
+We also made use of JQuery and Twitter Bootstrap.
 
 ## The website
 
