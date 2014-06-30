@@ -1,31 +1,15 @@
 Can't I Have Some Privacy?
 ======================
-Also known as *CIHSP*.  
+Also known as *CIHSP*. 
 
-<dl>
-  <dt>What is CIHSP?</dt>
-  <dd>CIHSP is a crowd-sourced bathroom review guide for UNC Chapel Hill's campus.>
-  <dt>Why was CISHP developed? Don't other websites like this exist already?</dt>
-  <dd>CISHP is a proof-of-concept website developed by James Allen and James Martin for their final project of Advanced Web Programming (COMP 426), at the University of North Carolina at Chapel Hill.
-    While we're not entirely thrilled that we both finished with an A-, we are proud of the product that came together at the end. We're also stoked about getting some hands-on experience with RESTful interfaces, JQuery, Bootstrap elements, PHP controllers, and practical SQL usage. We were both in the Files and Databases course in the same semester, and we were excited to implement a back end of BCNF relations in SQL.
-    Also, to answer the second question, we *thought* we were the first...</dd>
-</dl>
+## What is CIHSP?
 
-The website itself
-------------
+CIHSP was a humorous final project, written by me and my good friend [James Allen](http://github.com/jjalle37) for our final project in Advanced Web Development. We had to write a web application using HTML5, JavaScript, PHP, and a MySQL database. It is a good demonstration of our knowledge of how to write such applications, so I want to keep the code hosted for demonstration.
 
-<dl>
-    <dt>Can I visit the website?</dt>
-    <dd>You certainly may, as it is hosted on the UNC CS department's webspace. The URL is quite long, but is located [here](http://wwwx.cs.unc.edu/Courses/comp426-f13/jamesml/site/index.html).
-    You can even submit reviews for our non-existent bathrooms! Maybe we'll get around to entering real bathrooms... eventually...</dd>
-    <dt>Where is the code?</dt>
-    <dd>The source from the site resides in the 'site' folder in the repository. The other stuff was just for assignments we had to complete along the way.</dd>
-</dl>
+We also made use of JQuery and Twitter Bootstrap for layout purposes.
 
-Did I mention...
--------------
+## The website
 
-<dl>
-    <dt>...We work on mobile?</dt>
-    <dd>That's right, you can view the site on your Android tablet or smartphone. We don't entirely work on iOS7 because Safari for iOS sucks.</dd>
-</dl>
+Located [here](http://cihsp.github.io). I'm still working out the kinks of hosting on github.io, but you can see the source [here](http://github.com/cihsp/cihsp.github.io).
+
+The CS department website required a log in and the URL was much too long.
